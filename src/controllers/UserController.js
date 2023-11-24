@@ -1,6 +1,6 @@
 class UserController{
     create(request,response){
-        return response.json({name:"breno"})
+        const {name,email,password,phone} = request.body
     }
 }
 
